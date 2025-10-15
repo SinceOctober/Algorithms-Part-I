@@ -13,7 +13,7 @@ public class Board {
             this.tiles[i] = Arrays.copyOf(tiles[i], n);
         }
     }
-    
+
     public int dimension() {
         return n;
     }
@@ -128,3 +128,4 @@ public class Board {
     public static void main(String[] args) {
     }
 }
+
