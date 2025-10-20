@@ -11,7 +11,6 @@ public class PercolationStats {
     private double[] thresholds;
     private int trials;
     private double mean, stddev, confLo, confHi;
-
     public PercolationStats(int n, int trials) {
         if (n <= 0 || trials <= 0) throw new IllegalArgumentException("n and trials must be greater than 0");
 
