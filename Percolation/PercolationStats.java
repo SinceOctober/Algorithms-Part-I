@@ -18,6 +18,7 @@ public class PercolationStats {
         this.trials = trials;
         this.thresholds = new double[trials];
 
+        
         for (int t = 0; t < trials; t++) {
             Percolation perc = new Percolation(n);
             int openCount = 0;
